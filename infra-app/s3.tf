@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "remote_s3" {
 
   tags = {
     Name        = "tws-namratha-bucket"
-    Environment = "dev"
+    Environment = var.env
   }
 
 }
