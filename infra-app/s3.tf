@@ -1,8 +1,9 @@
-resource "aws_s3_bucket" "name" {
-    bucket = ""
+resource "aws_s3_bucket" "remote_s3" {
+  bucket = "tws-namratha-bucket"
 
-    tags = {
-      Name = ""
-    }
-  
+  tags = {
+    Name        = "tws-namratha-bucket"
+    Environment = "dev"
+  }
+
 }
