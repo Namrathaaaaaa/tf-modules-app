@@ -3,3 +3,9 @@ variable "env" {
   type        = string
 
 }
+
+variable "bucket_name" {
+  description = "This is the name for my bucket"
+  type        = string
+
+}

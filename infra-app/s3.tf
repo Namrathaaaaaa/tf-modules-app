@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "remote_s3" {
-  bucket = "tws-namratha-bucket"
+  bucket = "${var.env}-${var.bucket_name}"
 
   tags = {
-    Name        = "tws-namratha-bucket"
+    Name        = "infra-app-bucket"
     Environment = var.env
   }
 
