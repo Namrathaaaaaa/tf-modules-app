@@ -1,5 +1,6 @@
-./terraform
+.terraform/
 tf-module.pem
 public-key.pem
 tf-module.pub
 tf-module
+.terraform.lock.hcl
