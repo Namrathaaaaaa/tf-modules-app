@@ -4,3 +4,5 @@ public-key.pem
 tf-module.pub
 tf-module
 .terraform.lock.hcl
+terraform.tfstate
+terraform.tf
