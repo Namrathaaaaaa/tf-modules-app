@@ -24,3 +24,9 @@ variable "ec2_ami_id" {
   type        = string
 
 }
+
+variable "hash_key" {
+  description = "This is the hash_key for dynamodb"
+  type        = string
+
+}
