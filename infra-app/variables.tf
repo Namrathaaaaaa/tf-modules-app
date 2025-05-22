@@ -9,3 +9,10 @@ variable "bucket_name" {
   type        = string
 
 }
+
+
+variable "instance_count" {
+  description = "This is the number of ec2 instance"
+  type = number
+  
+}
